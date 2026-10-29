@@ -3,9 +3,9 @@
   "count": 1,
   "entries": [
     {
-      "handle": "leeyoojinwork-pm",
+      "handle": "yoojin-aimaker",
       "name": "OMD Design Studio (demo)",
-      "source": "gh:leeyoojinwork-pm/agent-hq:examples/demo.agent-hq.json",
+      "source": "gh:yoojin-aimaker/agent-hq:examples/demo.agent-hq.json",
       "description": "Codex × Claude 디자인 에이전트 15명 — 데모 빌딩"
     }
   ]

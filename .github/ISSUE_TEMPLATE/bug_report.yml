@@ -1,0 +1,28 @@
+name: 버그 제보
+description: 화면이 깨지거나 연결이 안 될 때
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: 무슨 일이 있었나요?
+      placeholder: 예) ?gh=내아이디/리포 로 열었더니 연결 실패 (HTTP 404)
+    validations: { required: true }
+  - type: textarea
+    id: steps
+    attributes:
+      label: 재현 방법
+      placeholder: |
+        1. node hq.mjs serve
+        2. http://127.0.0.1:4173 열기
+        3. ...
+  - type: input
+    id: env
+    attributes:
+      label: 브라우저 / OS / Node 버전
+      placeholder: Chrome 141 / macOS 26 / Node 22
+  - type: textarea
+    id: console
+    attributes:
+      label: 브라우저 콘솔 또는 터미널 메시지 (있으면)
+      render: text

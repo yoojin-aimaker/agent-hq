@@ -14,7 +14,7 @@ Claude Code, Codex, LangGraph, CrewAI, AutoGen, 직접 만든 파이프라인 �
 ## 1. 커넥터 받기
 
 ```bash
-curl -O https://raw.githubusercontent.com/leeyoojinwork-pm/agent-hq/main/hq.mjs
+curl -O https://raw.githubusercontent.com/yoojin-aimaker/agent-hq/main/hq.mjs
 ```
 
 `hq.mjs` 한 파일이 전부입니다. 작업 폴더 아무 곳에 두세요.
@@ -52,7 +52,7 @@ node hq.mjs serve
 
 브라우저에서 **http://127.0.0.1:4173** 을 엽니다. (서버가 뷰어 화면을 받아와 직접 보여줍니다. 모든 브라우저에서 동작)
 
-Chrome이라면 https://leeyoojinwork-pm.github.io/agent-hq/?src=local 로도 볼 수 있습니다. "로컬 네트워크 접근" 허용 팝업이 뜨면 허용하세요.
+Chrome이라면 https://yoojin-aimaker.github.io/agent-hq/?src=local 로도 볼 수 있습니다. "로컬 네트워크 접근" 허용 팝업이 뜨면 허용하세요.
 Safari나 일부 앱 내장 브라우저는 https 페이지에서 localhost 접속을 막으므로 위 http 주소를 쓰세요.
 
 서버가 떠 있으면 에이전트 코드에서 HTTP로 바로 보고할 수 있습니다.
@@ -100,7 +100,7 @@ node hq.mjs push 내아이디/my-agents --watch 60  # 60초마다 바뀐 경우�
 
 - git 명령 없이 GitHub API로 파일 하나만 커밋합니다. 리포는 미리 만들어 두세요(빈 리포 가능).
 - 게시 전 스키마 검증을 하고, 로컬 파일 경로(`source`)는 지웁니다. **`task` 문구와 이벤트는 공개됩니다.** 고객명, 내부 경로, 토큰을 넣지 마세요.
-- 보기: **https://leeyoojinwork-pm.github.io/agent-hq/?gh=내아이디/my-agents**
+- 보기: **https://yoojin-aimaker.github.io/agent-hq/?gh=내아이디/my-agents**
   - 브랜치/경로 지정: `?gh=owner/repo@dev:hq/agent-hq.json`
   - GitHub raw 캐시 때문에 반영까지 최대 몇 분 걸릴 수 있습니다. 실시간은 3-A.
 - 직접 커밋해도 됩니다. 리포 루트에 `agent-hq.json`이 있으면 끝입니다.

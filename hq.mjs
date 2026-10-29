@@ -12,7 +12,7 @@
  *   node hq.mjs validate [file]
  *
  * 데이터 포맷: agent-hq.json (schema/agent-hq.schema.json, version 1)
- * 뷰어: https://leeyoojinwork-pm.github.io/agent-hq/?gh=owner/repo  또는  ?src=local
+ * 뷰어: https://yoojin-aimaker.github.io/agent-hq/?gh=owner/repo  또는  ?src=local
  */
 import { createServer } from "node:http";
 import { readFileSync, writeFileSync, readdirSync, statSync, existsSync, openSync, readSync, closeSync, renameSync } from "node:fs";
@@ -21,7 +21,7 @@ import { join, basename, extname, dirname, resolve } from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import { execFileSync } from "node:child_process";
 
-export const VIEWER = process.env.HQ_VIEWER || "https://leeyoojinwork-pm.github.io/agent-hq/";
+export const VIEWER = process.env.HQ_VIEWER || "https://yoojin-aimaker.github.io/agent-hq/";
 export const STATUSES = ["active", "review", "idle"];
 export const ACCENTS = ["amber", "green", "red", "blue", "pink", "purple", "yellow", "orange"];
 const MAX_AGENTS = 200, MAX_EVENTS = 50;

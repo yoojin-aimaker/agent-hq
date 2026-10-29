@@ -1,0 +1,13 @@
+name: 아이디어 제안
+description: 이런 기능이 있으면 좋겠어요
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 어떤 상황에서 불편했나요?
+    validations: { required: true }
+  - type: textarea
+    id: idea
+    attributes:
+      label: 어떻게 되면 좋을까요?

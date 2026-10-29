@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://leeyoojinwork-pm.github.io/agent-hq/schema/agent-hq.schema.json",
+  "$id": "https://yoojin-aimaker.github.io/agent-hq/schema/agent-hq.schema.json",
   "title": "Agent HQ building (v1)",
   "description": "멀티에이전트 하나(=빌딩 하나)의 상태. hq.mjs가 쓰고, 뷰어가 읽는다. floors를 생략하면 뷰어가 team 기준으로 층을 자동 배정한다.",
   "type": "object",

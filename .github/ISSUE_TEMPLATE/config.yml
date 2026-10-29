@@ -1,5 +1,8 @@
 blank_issues_enabled: true
 contact_links:
   - name: 내 빌딩을 로비에 등록하기
-    url: https://github.com/leeyoojinwork-pm/agent-hq/blob/main/docs/CONNECT.md#4-로비에-등록하기-선택
+    url: https://github.com/yoojin-aimaker/agent-hq/blob/main/docs/CONNECT.md#4-로비에-등록하기-선택
     about: registry/<github-login>.json 파일 하나를 PR로 추가하면 됩니다.
+  - name: 질문 · 자랑 · 잡담
+    url: https://github.com/yoojin-aimaker/agent-hq/discussions
+    about: 연결 방법 질문이나 내 빌딩 자랑은 Discussions에서

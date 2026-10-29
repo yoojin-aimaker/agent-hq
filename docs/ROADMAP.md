@@ -25,8 +25,8 @@ PM: **PM Fable** (5F Control). 이 문서가 프로젝트의 단일 진실 소�
 ## 마일스톤
 
 ### M0 — 공개 배포 ✅ (2026-07-04)
-- [x] 리포 생성: github.com/leeyoojinwork-pm/agent-hq
-- [x] Pages: leeyoojinwork-pm.github.io/agent-hq
+- [x] 리포 생성: github.com/yoojin-aimaker/agent-hq
+- [x] Pages: yoojin-aimaker.github.io/agent-hq
 - [x] 인수인계 문서 (HANDOFF, OPUS-BRIEF)
 
 ### M1 — 실제 에이전트 스캔 (OPUS-BRIEF Phase 1)
